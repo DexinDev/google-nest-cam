@@ -12,7 +12,7 @@ $client->addScope(Google\Service\Drive::DRIVE_METADATA_READONLY);
 
 // Required, call the setRedirectUri function to specify a valid redirect URI for the
 // provided client_id
-$client->setRedirectUri('http://' . $_SERVER['HTTP_HOST'] . '/oauth2callback.php');
+$client->setRedirectUri('https://' . $_SERVER['HTTP_HOST'] . '/oauth2callback.php');
 
 // Recommended, offline access will give you both an access and refresh token so that
 // your app can refresh the access token without user interaction.
